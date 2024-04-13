@@ -22,9 +22,7 @@ jobs:
         cache: 'npm'
     - name: Install the dependancies
       run: npm install
-    - name: Install the browsers for playwright
-      run: npx playwright install
-    - name: Run UI tests
-      run: npm run test:ui
+    - name: Run Unit tests
+      run: npm run test:unit
     - name: Display SoftUni username
       run: echo "vasilsl"
