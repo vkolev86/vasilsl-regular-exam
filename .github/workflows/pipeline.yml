@@ -1,5 +1,5 @@
 
-name: Build and run UI test
+name: Build and run unit/UI test
 
 on:
   push:
